@@ -1,0 +1,181 @@
+
+.heroContainer {
+  padding: 0.9% 12.5% 2% 12.5%;
+}
+
+.hero-bg{
+    display: flex;
+    margin: 0 auto;
+    /* overflow: hidden; */
+    /* min-height:70vh; */
+    flex-direction: column;
+}
+
+.a{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height:70%
+}
+
+.heroH1 {
+  width: 45%;
+  height: 40%;
+  left: 0;
+  position: 'absolute';
+  color: 'white';
+  font-family: 'Jacques Francois';
+  text-transform: 'capitalize';
+  font-size: 45px;
+  font-weight: '400';
+  color:#000000;
+}
+
+
+.heroImg{
+  width: 55%;
+}
+.heroImg img {
+  height: 400px;
+  width: auto;
+  z-index: 1;
+}
+
+.img-bg{
+  padding: 10px;
+  height: auto;
+  width: 500px;
+  border-radius: 20px;
+  background-color: rgba(128, 128, 128, 0.187);
+  /* border-radius: 600px; */
+}
+
+.heroText {
+  width: 30%;
+  height: 22%;
+  font-size: 30px;
+  color:#000000;
+}
+
+.heroBtns{
+  display: flex;
+  gap: 2rem;
+  width: 50%;
+  height:25%;
+  margin-top:1.7rem;
+}
+
+.heroBtn1{
+  padding: 1rem 2rem;
+  border-radius: 30px;
+  background-color: dodgerblue;
+  color:#ffffff;
+  font-size: 1.2rem;
+  border: 0.1rem solid #000000;
+}
+.heroBtn2 {
+  padding: 1rem 2rem;
+  border-radius: 30px;
+  border: 0.1rem solid #000000;
+  color:#000000;
+  font-size: 1.2rem;
+}
+
+.heroBtn1:hover{
+  cursor: pointer;
+  background-color: #ffffff00;
+  transition: all ease 0.5s;
+  color: #000000;
+}
+
+.heroBtn2:hover{
+  cursor: pointer;
+  background-color: dodgerblue;
+  color:#fff;
+  font-size: 1.2rem;
+  transition: all ease 0.5s;
+  border: 0.1rem solid #000000;
+}
+
+
+
+@media screen and (max-width:1000px) {
+  .heroContainer{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+  .a{
+    flex-direction: column;
+  }
+  .heroText{
+    width:50%;
+    margin:2rem 0 1.5rem 0;
+  }
+
+  .heroBtns{
+    margin:0 auto;
+  }
+
+  .heroBtn1{
+    min-height:1rem;
+  }
+  .heroBtn2{
+    min-height:1rem;
+  }
+  .heroImg{
+    width:100%;
+  }
+
+  .heroImg img{
+    width: auto;
+    float:right;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width:1310px){
+  .heroImg{
+    width: 100%;
+    margin:0 auto;
+  }
+  .heroImg img{
+    width:100%;
+    height: auto;
+    float:right;
+  }
+}
+
+@media screen and (max-width:1000px){
+  .heroH1{
+    width:100%;
+    margin: 0 auto;
+  }
+  .heroImg{
+    width:100%;
+    margin:0 auto;
+  }
+}
+
+@media screen and (max-width:498px){
+  .heroBtns{
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+
+@media screen and (max-width:506px){
+  .heroH1{
+    font-size: 28px;
+  }
+}
+
+
+
+
+
+
+
+

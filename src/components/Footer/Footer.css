@@ -1,0 +1,66 @@
+
+
+/* Footer container */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 0;
+    width: 100%;
+    height: 40vh;
+    width: 100%;
+    height:100%;
+    background-color: rgb(32, 31, 31);
+  }
+  
+  /* Footer content wrapper */
+  .footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  /* Individual footer sections */
+  .footer-section {
+    flex: 1;
+    max-width: 300px;
+    margin: 0 20px;
+  }
+  .footer-section3 {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 0 20px;
+  }
+  
+  /* Footer headings */
+  .footer-section h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  /* Footer links */
+  .footer-section a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 5px;
+  }
+  
+  /* Footer bottom */
+  .footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 10px;
+    border-top: 1px solid #555;
+  }
+  
+  /* Copyright text */
+  .footer-bottom p {
+    font-size: 14px;
+  }
+  
+
+
+
+
+
